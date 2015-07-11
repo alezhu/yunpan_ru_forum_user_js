@@ -12,6 +12,20 @@
 // @grant        none
 // ==/UserScript==
 
+
 (function() {
-  
+	var LOG = 1;
+	var authors = {};
+	$(document).ready(function(){
+		$("ul.topics li.row").each(function() {
+			var li = $(this);
+			var a = li.find("a[href^=http://yunpan.ru/member]");
+			if(a.length) {
+				var name = a.text();
+				var topics = authors[name];
+				if(!topics) topics = [];
+				topics.push(li);
+			}
+		});
+	})
 })();
