@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         yunpan.ru forum
-// @namespace    https://raw.githubusercontent.com/alezhu/yunpan_ru_forum_user_js/
+// @namespace    https://github.com/alezhu/yunpan_ru_forum_user_js
 // @version      1.0
-// @description  Some usefal function for forum
+// @description  Some useful function for forum
 // @author       alezhu
 // @match        http://yunpan.ru/*
 // @include      http://yunpan.ru/*
